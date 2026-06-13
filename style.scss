@@ -128,6 +128,15 @@ padding: 10px 30px;
         color: white;
         margin: auto;
 }
+.end {
+    @include section;
+    background-color: whitesmoke;
+    align-items: baseline;
+    margin-top: 100px;
+    input {
+        padding: 15px;
+    }
+}
 
 
 
@@ -156,5 +165,8 @@ padding: 10px 30px;
     }
     .n2 {
         overflow: scroll;
+    }
+    .end {
+        display: none;
     }
 }

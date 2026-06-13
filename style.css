@@ -136,6 +136,21 @@
   margin: auto;
 }
 
+.end {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  background-color: whitesmoke;
+  align-items: baseline;
+  margin-top: 100px;
+}
+.end input {
+  padding: 15px;
+}
+
 @media (max-width: 500px) {
   .p1 p {
     display: none;
@@ -157,5 +172,8 @@
   }
   .n2 {
     overflow: scroll;
+  }
+  .end {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
