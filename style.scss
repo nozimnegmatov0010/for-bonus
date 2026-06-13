@@ -1,0 +1,31 @@
+@mixin section {
+    padding: 25px;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;  
+}
+
+
+.p1 {
+    @include section;
+    h1 {
+        font-size: 60px;
+        color: green;
+    }
+   .p3  {
+        display: flex;
+        gap: 30px;
+    }
+    .p2 {
+        @extend .p3
+    }
+  .p5{
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: green;
+    border: none;
+    color: white;
+  }
+}
