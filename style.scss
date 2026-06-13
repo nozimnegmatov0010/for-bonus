@@ -101,6 +101,33 @@
     max-width: 1200px;
     margin: auto;
 }
+.n2 {
+    @include section ;
+    text-align: center;
+    .n1 {
+        padding: 20px 40px;
+        background-color: whitesmoke;
+        border-radius: 15px;
+    }
+}
+.n5 {
+    @include section ;
+    text-align: center;
+    .n1 {
+        padding: 20px 40px;
+        background-color: whitesmoke;
+        border-radius: 15px;
+    }
+}
+.n4 {
+        @include section ;
+padding: 10px 30px;
+        border-radius: 15px;
+        background-color: green;
+        border: none;
+        color: white;
+        margin: auto;
+}
 
 
 
@@ -123,5 +150,11 @@
     }
     .m2 {
         display: none;
+    }
+    .n5 {
+        display: none;
+    }
+    .n2 {
+        overflow: scroll;
     }
 }
